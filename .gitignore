@@ -14,7 +14,7 @@
 *.out
 coverage.html
 
-README.md
+/README.md
 
 # OS / editor
 .DS_Store

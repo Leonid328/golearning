@@ -1,0 +1,20 @@
+Superloop simulation (virtual millis)
+LED1 every 200 ms, LED2 every 500 ms, LED3 every 1000 ms
+duration: 2000 ms
+
+t= 200 ms  LED1 -> ON
+t= 400 ms  LED1 -> OFF
+t= 500 ms  LED2 -> ON
+t= 600 ms  LED1 -> ON
+t= 800 ms  LED1 -> OFF
+t=1000 ms  LED1 -> ON
+t=1000 ms  LED2 -> OFF
+t=1000 ms  LED3 -> ON
+t=1200 ms  LED1 -> OFF
+t=1400 ms  LED1 -> ON
+t=1500 ms  LED2 -> ON
+t=1600 ms  LED1 -> OFF
+t=1800 ms  LED1 -> ON
+t=2000 ms  LED1 -> OFF
+t=2000 ms  LED2 -> OFF
+t=2000 ms  LED3 -> OFF
