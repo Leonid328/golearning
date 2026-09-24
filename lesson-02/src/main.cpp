@@ -1,3 +1,5 @@
+#include <Arduino.h>
+
 int led1 = 8;
 int led2 = 9;
 int led3 = 10;
