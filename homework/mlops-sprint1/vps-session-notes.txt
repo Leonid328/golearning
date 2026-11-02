@@ -1,0 +1,17 @@
+VPS 76.13.249.47 — session 2026-11-02 (Leonid328)
+
+Telco (/opt/mlops-hw/telco-churn-synthetic):
+- data/telco_churn_demo.csv — 10001 lines, ~1.5 MB
+- generate_dataset_ext.py → telco_customers.csv, support_conversations.csv, knowledge_base.*
+- docker compose up -d jupyter → telco-churn-synthetic-jupyter-1 Up, 0.0.0.0:8888->8888
+- curl http://127.0.0.1:8888/ → HTTP 302
+- JUPYTER_TOKEN=secret123
+- explore_data.ipynb nbconvert execute OK (output to /tmp when work volume root-owned)
+
+Docker prune reclaimed Total reclaimed space: 1.241GB
+
+Ecommerce:
+- cloned to /opt/mlops-hw/ecommerce-start
+- init_project.sh --quick started (build may complete after SSH recovery)
+
+SSH: after parallel Docker/Jupyter load → "Connection timed out during banner exchange" — reboot or wait, then run capture-commands.sh
